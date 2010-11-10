@@ -31,6 +31,15 @@ program that doesn't support this file format, please contact me
 and let me know.
 
 
+Feedback
+--------
+
+I'm eager to hear feedback about the vim_flashcards project! Stories
+of success and failure, suggestions for commands or command sets
+to include, error reports, etc. Just submit a Github issue on the
+project!
+
+
 Contributing
 ------------
 
