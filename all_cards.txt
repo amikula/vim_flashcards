@@ -191,3 +191,51 @@ Move to start of current open fold	[z	advanced
 Move to end of current open fold	]z	advanced
 Move down to start of next fold	zj	advanced
 Move up to end of previous fold	zk	advanced
+Move cursor down one line	j	Basic
+Move cursor up one line	k	Basic
+Move cursor left one character	h	Basic
+Move cursor right one character	l	Basic
+Return to Normal mode	&lt;ESC&gt;<br /><span style="font-style:italic;">(escape)</span>	Basic
+Exit the editor, discarding any changes	:q!&lt;ENTER&gt;	Basic
+Exit the editor, but abort if there are unsaved changes	:q&lt;ENTER&gt;	Basic
+Delete the character under the cursor	x	Basic
+Insert text before the cursor	i	Basic
+Append text at the end of the current line	A	Basic
+Save the current file and exit	:wq&lt;ENTER&gt;	Basic
+Append text after the cursor	a	Basic
+Insert text at the beginning of the line	I	Basic
+Delete a word	dw	beginner
+Delete to the end of the line	d$	beginner
+Delete text indicated by motion <span style="font-style:italic;">m</span>	d<span style="font-style:italic;">m</span><br /><span style="font-style:italic;">(example: d$ means delete to end of line)</span>	beginner
+Delete <span style="font-style:italic;">n</span> words	<span style="font-style:italic;">n</span>dw	beginner
+Move to the start of the line (before whitespace)	0	beginner
+Delete a line	dd	beginner
+Undo the last command	u<br /><span style="font-style:italic;">(may be used repeatedly to undo multiple commands)</span>	beginner
+Redo the last undone command	&lt;C-R&gt;<br /><span style="font-style:italic;">(Control-R)</span>	beginner
+Put previously deleted text after the cursor	p	beginner
+Put previously deleted text before the cursor	P	beginner
+Replace the character under the cursor with character <span style="font-style:italic;">x</span>	r<span style="font-style:italic;">x</span>	beginner
+Change to the end of the current word	ce	beginner
+Change to the end of the current line	c$	beginner
+See location in file and file status	&lt;C-G&gt;<br /><span style="font-style:italic;">(Control-G)</span>	beginner
+Search for phrase	/<span style="font-style:italic;">phrase</span>&lt;ENTER&gt;	beginner
+Substitute first occurrence of <span style="font-style:italic;">phrase1</span> with <span style="font-style:italic;">phrase2</span> on the current line	:s/<span style="font-style:italic;">phrase1</span>/<span style="font-style:italic;">phrase2</span>&lt;ENTER&gt;	beginner
+Substitute all occurrences of <span style="font-style:italic;">phrase1</span> with <span style="font-style:italic;">phrase2</span> on the current line	:s/<span style="font-style:italic;">phrase1</span>/<span style="font-style:italic;">phrase2</span>/g&lt;ENTER&gt;<br /><span style="font-style:italic;">(The /g at the end means "global")</span>	beginner
+Substitute all occurrences of <span style="font-style:italic;">phrase1</span> with <span style="font-style:italic;">phrase2</span> in the entire file	:%s/<span style="font-style:italic;">phrase1</span>/<span style="font-style:italic;">phrase2</span>/g<br /><span style="font-style:italic;">(% means execute the command for the entire file)</span>	beginner
+Execute external command <span style="font-style:italic;">cmd</span>	:!<span style="font-style:italic;">cmd</span>	Beginner
+Save the current file to file named <span style="font-style:italic;">filename</span>	:w <span style="font-style:italic;">filename</span>	Beginner
+Save the visually selected area to file named <span style="font-style:italic;">filename</span>	:w <span style="font-style:italic;">filename</span><br /><span style=" font-style:italic;">(vim will automatically add '&lt;,'&gt; to the beginning of your command for the visually selected area)</span>	Beginner
+Open a new line below the cursor's line and enter Insert mode	o	Beginner
+Open a new line above the cursor's line and enter Insert mode	O <span style="font-style:italic;">(capital o)</span>	Beginner
+Enter Replace mode, to repeatedly replace the character under the cursor and advance	R	Beginner
+Yank (copy) the selected text	y	Beginner
+Yank (copy) the current line	yy <span style="font-style:italic;">or</span> Y	Beginner
+Yank (copy) from cursor through motion <span style="font-style:italic;">m</span>	y<span style="font-style:italic;">m</span>	Beginner
+Put (paste) copied text after the cursor	p	Beginner
+Put (paste) copied text before the cursor	P	Beginner
+Ignore case in searches	:set ic <span style="font-style:italic;">(or :set ignorecase)</span>	Beginner
+Show partial matches while typing search phrase	:set is <span style="font-style:italic;">(or :set incsearch)</span>	Beginner
+Highlight all matching phrases for the last search	:set hls <span style="font-style:italic;">(or :set hlsearch)</span>	Beginner
+Get help on command <span style="font-style:italic;">cmd</span>	:help <span style="font-style:italic;">cmd</span>	Beginner
+Jump to the next window	&lt;C-W&gt;&lt;C-W&gt;	Beginner
+Jump to the next window right, left, up, or down	&lt;C-W&gt;&lt;C-<span style="font-style:italic;">K</span>&gt; <span style="font-style:italic;">(where </span>K<span style="font-style:italic;"> is a cursor movement key h, j, k, l)</span>	Beginner
