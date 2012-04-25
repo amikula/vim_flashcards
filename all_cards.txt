@@ -8,7 +8,7 @@ Exit the editor, but abort if there are unsaved changes	:q&lt;ENTER&gt;	Basic
 Delete the character under the cursor	x	Basic
 Insert text before the cursor	i	Basic
 Append text at the end of the current line	A	Basic
-Save the current file and exit	:wq&lt;ENTER&gt;	Basic
+Save the current file and exit	:wq&lt;ENTER&gt;   <span style="font-style:italic;">or</span>   ZZ  Basic
 Append text after the cursor	a	Basic
 Invert case of current character	~	Beginner
 Go down half a screen	&lt;C-D&gt;	Beginner
